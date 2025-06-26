@@ -7,6 +7,7 @@ import About from "./components/About";
 import Lenis from "lenis";
 import ArtSection from "./components/ArtSection";
 import Menu from "./components/Menu";
+import Contact from "./components/Contact";
 
 //GSAP plugins
 gsap.registerPlugin(ScrollTrigger, SplitText);
@@ -28,6 +29,7 @@ const App = () => {
       <About />
       <ArtSection />
       <Menu />
+      <Contact />
     </main>
   );
 };
