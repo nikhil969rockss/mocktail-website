@@ -43,7 +43,7 @@ const Hero = () => {
       .to(".left-leaf", { y: -200 }, 0);
     // for video animation
     const startValue = isMobile ? "top 50%" : "center 60%";
-    const endValue = isMobile ? "150% top" : "bottom top";
+    const endValue = isMobile ? "160% top" : "bottom top";
 
     // video animation starts
 
@@ -99,6 +99,7 @@ const Hero = () => {
       </section>
       <div className="video absolute inset-0 ">
         <video
+          className="absolute bottom-0"
           ref={videoRef}
           src="/videos/output.mp4"
           muted
